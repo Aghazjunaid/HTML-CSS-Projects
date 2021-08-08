@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+.back-image {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    border-radius: 0px;
+  }
+
+.centered{
+  margin-top: 150px;
+  padding: 0 250px;
+}
+.about-color{
+  color: #5d0d0d!important;
+  font-weight: 500;
+}
+.abc{
+  margin: 0;
+}
+.center{
+  display: flex;
+  justify-content: space-between;
+}
+.teamcon{
+  margin-top: -50px;
+}
+
+  /* Change Footer Social Icon Color */
+  a {
+    color:  #DC3545;
+  }
+  a:hover {
+    color: #E994A2;
+  }
+
+
+@media only screen and (max-width: 650px) {
+  .teamcon {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .centered {
+    padding: 0px;
+  }
+  .contact{
+    margin-bottom: 20px;
+  }
+
+}
