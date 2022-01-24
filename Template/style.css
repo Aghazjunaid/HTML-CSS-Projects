@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e4a58240;
+}
+.container{
+    width:70%;
+    background-color: white;
+    border: 1px solid black;
+    margin: 100px auto;
+}
+.logo{
+    margin: 30px auto;
+    text-align: center;  /* to center an image in div */
+}
+.links{
+    width: 25%;
+    margin: 15px auto;
+}
+.links ul{
+    display: flex;
+    justify-content: space-between;
+}
+.template-body{
+    border-top: 1px solid #1C4C4C;
+
+}
+.headings{
+    margin-top: 50px;
+    text-align: center;
+}
+.template-body .headings h1{
+    font-weight: 500;
+    font-size: 65px;
+    color: #333;
+    margin: 20px auto;
+    width: 75%
+}
+.template-body .headings h6{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 100%;
+    color: #AA8B6F;
+}
+.tracking{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(170 139 111 / 20%);
+    margin: 40px auto;
+    text-align: center;
+}
+.tracking .tracking-id{
+    flex: 1;
+    border-right: 1px solid #C4C4C4;
+    padding: 10px;
+}
+.tracking .rental-id{
+    flex: 1;
+}
